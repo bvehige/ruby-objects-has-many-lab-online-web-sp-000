@@ -27,7 +27,6 @@ def add_song_by_name(song_name)
 end
 
 def songs
-  binding.pry
   @songs
 end
 
