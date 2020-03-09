@@ -26,6 +26,8 @@ end
 
 def songs
   Song.all.collect{|songs|songs.artist == self}
+end
+
 
 def self.song_count 
  @@song_count    
