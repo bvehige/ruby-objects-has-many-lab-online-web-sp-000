@@ -26,7 +26,7 @@ def add_song_by_name(song_name)
 end
 
 def songs
-  @songs 
+  Song.all.select{|song|song.artist == self}
 end
 
 
