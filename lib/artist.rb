@@ -25,7 +25,7 @@ def add_song_by_name(song_name)
 end
 
 def songs
-  Song.all.collect{|songs|songs.artist == self}
+  Song.all.collect{|songs|song.artist == self}
 end
 
 
