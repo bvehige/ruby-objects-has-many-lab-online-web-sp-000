@@ -25,7 +25,7 @@ def add_song_by_name(song_name)
 end
 
 def songs
-  @songs
+  songs.all.collect{|songs|songs
 
 def self.song_count 
  @@song_count    
